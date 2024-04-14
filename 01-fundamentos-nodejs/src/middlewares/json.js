@@ -1,3 +1,5 @@
+import { Buffer } from 'node:buffer';
+
 export async function json(req, res) {
     const buffers = []
 
